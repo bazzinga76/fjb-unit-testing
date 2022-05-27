@@ -1,21 +1,19 @@
+import { name, esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas } from '../utils/Functions.js';
 
-
-
-function esPar(numero){
-    if(numero%2==0){
-        return("SI");
-    }else{
-        return("NO");
-    }
-}
-
-function calculateLength(cadena){
-    return cadena.length;
-}
-
-
-console.log(esPar(3));
+console.log("esPar(2):");
+console.log(esPar(2));
+console.log("arrayEsPar([2,4,6,8,10]):");
+console.log(arrayEsPar([2,4,6,8,10]));
+console.log('calculateLength("Hola"):');
 console.log(calculateLength("Hola"));
+console.log("diaSemana(5):");
+console.log(diaSemana(5));
+console.log("horaActual():");
+console.log(horaActual());
+console.log("ordenaArray([3,5,2,4,1]):");
+console.log(ordenaArray([3,5,2,4,1]));
+console.log('mayusculas("minusculas"):');
+console.log(mayusculas("minusculas"));
 
 
 
