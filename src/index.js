@@ -1,4 +1,7 @@
-import { name, esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas } from '../utils/Functions.js';
+//import { esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas } from '../src/modules/Functions.js';
+//import * as  Functions from '../src/modules/Functions.js';
+//const { esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas }  = Functions;
+const { esPar, arrayEsPar, calculateLength, diaSemana, horaActual, ordenaArray, mayusculas } = require('../src/modules/Functions.js');
 
 console.log("esPar(2):");
 console.log(esPar(2));

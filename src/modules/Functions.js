@@ -1,6 +1,3 @@
-export const name = 'functions';
-
-
 // * crear una funcion para verificar numeros pares (verificar con SI/NO) y escribir su test
 function esPar(numero){
     let resp = (numero%2==0) ?  "SI" : "NO";
@@ -57,4 +54,8 @@ function mayusculas(palabra){
     return palabra.toUpperCase();
 }
 
-export { esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas};
+//export { esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas};
+
+module.exports = {
+    esPar, arrayEsPar, calculateLength, diaSemana, horaActual,  ordenaArray, mayusculas
+};
